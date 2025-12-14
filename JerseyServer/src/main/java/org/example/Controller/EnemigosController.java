@@ -11,7 +11,7 @@ import java.util.List;
 
 @Path("/enemigo")
 @Produces(MediaType.APPLICATION_JSON)
-public class EnemigosResource {
+public class EnemigosController {
 
     // GET /api/enemigos - Obtener todos los enemigos
     @GET
